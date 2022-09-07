@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://concepto.de/wp-content/uploads/2018/04/arquitectura-plano-e1523469843305.jpeg");
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1 0 auto;
+    
+  
+  }
+  
+  header{
+    flex: 0 0 auto;
+ }
+   
+
+h1{
+    color: black;
+    text-align:center;
+    max-width: 300rem;
+    margin: center;
+    font-family: Arial;
+}
+
+h2, h3{
+    color: black;
+    text-align:left;
+    max-width: 37.25rem;
+    margin: 0 auto;
+    font-family: sans-serif;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-name: prueba2;
+
+    
+}
+@keyframes prueba2 {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+
+ul {
+    list-style: none;
+    font-size:0;
+    color: black
+ }
+ li {
+    display: inline-block;
+    width: 15%;
+    position:relative;
+    font-size: 2rem;
+    text-align: center;
+    color: black
+ }
+
+ nav{
+     text-align: center;
+     color: blanchedalmond;
+ }
+@media screen and (min-width: 500px) {
+ @media (min-width: 500px) {
+  h1 {
+    color: red;
+  
+  }
+} 
+
+ .gallery {
+   
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: grid;
+    gap: 50px 60px;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+ }
+  .gallery img {
+    height: 300px;
+    border-radius: 10px;
+   
+    display: grid;
+  }
+}
+
+.gallery{
+  transition: transform 0.5;
+}
+
+
+.gallery :hover{
+  transform: scale(1.5);
+}
+
+  footer {
+    position: relative ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-self: flex-end;
+    flex: 0 0 auto;
+  }
+
+
+  form{
+   text-align: center }
